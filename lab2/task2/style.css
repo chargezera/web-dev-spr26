@@ -1,0 +1,225 @@
+@import url("https://fonts.cdnfonts.com/css/instagram-sans-2");
+
+* {
+    margin: 0;
+    padding: 0rem 0rem 0rem 0rem;
+    box-sizing: border-box;
+    font-family: "Instagram Sans", sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+  "promo vr-line form";
+  grid-template-columns: 8fr 0.5fr 3.5fr;
+  gap: 3px;
+  background-color: rgb(235, 235, 235);
+  padding: 0px;
+  padding: 0rem 0 0rem 0;
+}
+
+img{
+    display: flex;
+    flex-direction: row;
+    object-fit: fill;
+    height: 400px;
+    width: 200px;
+    margin-right: -2rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+}
+
+
+.promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.promo h2{
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 5rem;
+}
+
+.promo p{
+    background-image: linear-gradient(to right, red, rgb(136, 0, 255));
+    color: transparent;
+    background-clip: text;
+}
+
+.logo{
+    margin: 2.5rem;
+    height: 90px;
+    width: 90px;
+    margin-right: auto;
+}
+
+.mainpic{
+    height: 475px;
+    width: 250px;
+    z-index: 3;
+}
+
+.sidepic1{
+    rotate: 10deg;
+    z-index: 1;
+
+}
+
+.sidepic2{
+    z-index: 2;
+    rotate: -10deg;
+}
+
+
+.vr-line {
+  width: 2px; 
+
+  height: 900px; 
+
+  background-color: lightgray; 
+
+  display: block; 
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+}
+
+.sform{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: right;
+    text-align: left;
+    padding-top: 14rem;
+    padding-right: 5rem;
+}
+
+.sform form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    height: 3.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 0 14px;
+}
+
+form .login{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #0d65d9;
+    padding: 11px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form .login:hover{
+    background:#328bff;
+}
+
+form .forgot{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+form .fa-login{
+    border: 2px solid lightgray;
+    outline: none;
+    cursor: pointer;
+    background: rgb(235, 235, 235);
+    padding: 11px;
+    border-radius: 30px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form .fa-login:hover{
+    background: rgb(225, 225, 225);
+}
+
+form .create{
+    border: 2px solid #328bff;
+    outline: none;
+    cursor: pointer;
+    background: rgb(235, 235, 235);
+    padding: 11px;
+    border-radius: 30px;
+    color: #328bff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form .create:hover{
+    background: rgb(225, 225, 225);
+}
+
+.sform p{
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 1rem 0 0 1rem;
+    margin-left: 0vh;
+}
+
+footer ul a{
+    padding: 1rem;
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: small;
+}
+
+footer li{
+    list-style-type: none;
+    text-decoration: none;
+    color: lightgray;
+}
+
+#cars{
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+}
