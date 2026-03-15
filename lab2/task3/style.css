@@ -1,9 +1,16 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial;
+    font-family: Aria, sans-serif;
 }
 .text{
     display: flex;
